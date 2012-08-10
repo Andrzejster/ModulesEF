@@ -1,0 +1,42 @@
+#last_seen_user_panel {
+	width: 100%;
+	background: #fff;
+}
+
+#last_seen_user_panel .user {
+	width: 100%;
+	border-bottom: dashed 1px #626262;
+	float: left;
+}
+
+#last_seen_user_panel .user .username {
+	float: left;
+	width: 70%;
+}
+
+#last_seen_user_panel .user small {
+	font-size: 9px;
+	color: #525252;
+}
+
+#last_seen_user_panel .user .time {
+	float: left;
+	width: 30%;
+}
+
+#last_seen_user_panel .stats {
+	float: left;
+	margin-top: 10px;
+	width: 100%;
+}
+
+#last_seen_user_panel .stats .left {
+	float: left;
+	width: 75%;
+	font-size: 10px;
+}
+
+#last_seen_user_panel .stats .right {
+	float: left;
+	width: 25%;
+}
