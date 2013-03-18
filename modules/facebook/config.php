@@ -38,7 +38,7 @@ $new_table[1] = array(
 		`stream` TINYINT NOT NULL DEFAULT '1',
 		`border_color` VARCHAR(6) NOT NULL,
 		`header` TINYINT NOT NULL DEFAULT '1',
-		PRIMARY KEY (`title`)
+		PRIMARY KEY (`href`)
 	) ENGINE = InnoDB CHARACTER SET utf8 COLLATE utf8_general_ci;"
 );
 
